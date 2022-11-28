@@ -10,7 +10,7 @@
                     <a itemprop="url" href="/" title="Home"><span itemprop="title">Trang chủ</span></a>
                 </li>
                 <li itemscope="" >
-                    <a itemprop="url" href="#" title="Đồng hồ chính hãng"><span itemprop="title">Liên hệ</span></a>
+                    <a itemprop="url" href="#" title="Account"><span itemprop="title">Liên hệ</span></a>
                 </li>
             </ul>
         </div>

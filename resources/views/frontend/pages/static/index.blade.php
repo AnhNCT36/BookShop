@@ -11,7 +11,7 @@
                 </li>
                 
                 <li >
-                    <a href="javascript://" title="Đồng hồ chính hãng"><span itemprop="title">{{  $page->s_title ?? '' }}</span></a>
+                    <a href="javascript://" title="Account"><span itemprop="title">{{  $page->s_title ?? '' }}</span></a>
                 </li>
             </ul>
         </div>

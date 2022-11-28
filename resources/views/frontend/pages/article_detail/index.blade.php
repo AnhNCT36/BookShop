@@ -10,10 +10,10 @@
                     <a href="/" title="Home"><span itemprop="title">Trang chủ</span></a>
                 </li>
                 <li >
-                    <a href="{{  route('get.blog.home') }}" title="Đồng hồ chính hãng"><span itemprop="title">Bài viết</span></a>
+                    <a href="{{  route('get.blog.home') }}" title="Account"><span itemprop="title">Bài viết</span></a>
                 </li>
                 <li >
-                    <a href="javascript://" title="Đồng hồ chính hãng"><span itemprop="title">{{  $article->a_name }}</span></a>
+                    <a href="javascript://" title="Account"><span itemprop="title">{{  $article->a_name }}</span></a>
                 </li>
             </ul>
         </div>
