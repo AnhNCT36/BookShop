@@ -3,7 +3,6 @@
         <div class="content">
             <div class="left">
 {{--                <a href="{{ route('get.static.customer_care') }}" title="Chăm sóc khách hàng" rel="nofollow">Chăm sóc khách hàng</a>--}}
-                 <a href="{{ route('get.user.transaction') }}" title="Kiểm tra đơn hàng" rel="nofollow">Kiểm tra đơn hàng</a>
             </div>
             <div class="right">
                 @if (Auth::check())
@@ -23,7 +22,7 @@
         <div class="content">
             <div class="left">
 {{--                <a href="{{ route('get.static.customer_care') }}" title="Chăm sóc khách hàng" rel="nofollow">Chăm sóc khách hàng</a>--}}
-                <a href="{{ route('get.user.transaction') }}" title="Kiểm tra đơn hàng" rel="nofollow">Kiểm tra đơn hàng</a>
+              
                 @if (Auth::check())
                     <a href="">Xin chào {{ Auth::user()->name }}</a>
                     <a href="{{  route('get.user.dashboard') }}">Quản lý tài khoản</a>
@@ -66,22 +65,6 @@
                             <span></span>
                         </span>
                     </a>
-                </li>
-                <li class="desktop">
-                    <a href="tel:18006005" title="" class="info-user js-show-dropdown">
-                        <img src="{{ asset('images/no-image.jpg') }}" alt="">
-                        <span class="fa fa-angle-down"></span>
-                    </a>
-                    <ul class="header-menu-user">
-                        @foreach(config('user') as $item)
-                            <li>
-                                <a href="{{ route($item['route']) }}" class="{{ \Request::route()->getName() == $item['route'] ? 'active' : '' }}">
-                                    <i class="{{ $item['icon'] }}"></i>
-                                    <span>{{ $item['name'] }}</span>
-                                </a>
-                            </li>
-                        @endforeach
-                    </ul>
                 </li>
             </ul>
 

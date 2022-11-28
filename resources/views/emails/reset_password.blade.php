@@ -12,8 +12,7 @@
         <p><i>Chú ý</i> :  Đường dẫn sẽ bị xoá sau 3</p>
     </div>
     <div style="background: #f4f5f5;box-sizing: border-box;padding: 15px">
-        <p style="margin:2px 0;color: #333">Email : phupt.humg.94@gmail.com</p>
-        <p style="margin:2px 0;color: #333">Phone : 0986420994</p>
-        <p style="margin:2px 0;color: #333">Face : <a href="https://www.facebook.com/TrungPhuNA">TrungPhuNa</a></p>
+        <p style="margin:2px 0;color: #333">Email : tuananhuet.work@gmail.com</p>
+        <p style="margin:2px 0;color: #333">Phone : 0818207986</p>
     </div>
 </div>

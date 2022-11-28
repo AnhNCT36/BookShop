@@ -17,7 +17,7 @@ class ShoppingCartController extends Controller
     private $vnp_TmnCode = "70ZQD6UU"; //Mã website tại VNPAY
     private $vnp_HashSecret = "OCIRVOZCAGKZXMCSIXRDJIPCFQVCPHTK"; //Chuỗi bí mật
     private $vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    private $vnp_Returnurl = 'http://laravel-bansach.local:8888/shopping/hook';
+    private $vnp_Returnurl = 'http://127.0.0.1:8000/shopping/hook';
     protected $idTransaction = 0;
 
     public function index()

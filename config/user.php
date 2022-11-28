@@ -35,9 +35,5 @@ return [
         'route' => 'get.static.product_view',
         'icon'  => 'fa fa-eye'
     ],
-    [
-        'name'  => 'Log Login',
-        'route' => 'get.user.log_login',
-        'icon'  => 'fa fa-bug'
-    ],
+    
 ];
