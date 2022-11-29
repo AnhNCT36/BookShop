@@ -20,13 +20,6 @@ return [
                 'icon'  => 'fa fa-edit',
 				'level'  => [1,2],
             ],
-//            [
-//                'name'  => 'Từ khoá',
-//                'namespace' => 'keyword',
-//                'route' => 'admin.keyword.index',
-//                'icon'  => 'fa fa-key',
-//				'level'  => [1,2],
-//            ],
             [
                 'name'  => 'Sách',
                 'namespace' => 'product',
@@ -92,13 +85,6 @@ return [
 				'icon'  => 'fa fa-users',
 				'level'  => [1,2],
 			],
-            [
-               'name'  => 'Liên hệ',
-               'namespace' => 'contact',
-               'route' => 'admin.contact',
-               'icon'  => 'fa fa-star',
-               'level'  => [1,2],
-           ],
 		]
 	],
 //    [
@@ -148,13 +134,6 @@ return [
         'icon' => 'fa-shopping-cart',
 		'level'  => [1,2],
         'sub'  => [
-            [
-                'name'  => 'Nhập kho',
-                'namespace' => 'import',
-                'route' => 'admin.inventory.warehousing',
-                'icon'  => 'fa-opencart',
-				'level'  => [1,2],
-            ],
 			[
 				'name'  => 'Xuất kho',
 				'namespace' => 'export',
@@ -204,13 +183,6 @@ return [
 			[
 				'name'  => 'Sự kiện',
 				'route' => 'admin.event.index',
-				'namespace' => 'pay-in',
-				'level'  => [1],
-				'icon'  => 'fa-circle-o'
-			],
-			[
-				'name'  => 'Chính sách',
-				'route' => 'admin.static.index',
 				'namespace' => 'pay-in',
 				'level'  => [1],
 				'icon'  => 'fa-circle-o'
