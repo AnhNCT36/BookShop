@@ -20,6 +20,13 @@ return [
                 'icon'  => 'fa fa-edit',
 				'level'  => [1,2],
             ],
+//            [
+//                'name'  => 'Từ khoá',
+//                'namespace' => 'keyword',
+//                'route' => 'admin.keyword.index',
+//                'icon'  => 'fa fa-key',
+//				'level'  => [1,2],
+//            ],
             [
                 'name'  => 'Sách',
                 'namespace' => 'product',
@@ -71,13 +78,7 @@ return [
 		'icon' => 'fa fa-user',
 		'level'  => [1,2],
 		'sub'  => [
-			[
-				'name'  => 'Khách hàng',
-				'route' => 'admin.user.index',
-				'namespace' => 'user',
-				'icon'  => 'fa fa-user',
-				'level'  => [1,2],
-			],
+			
 			[
 				'name'  => 'Nhà cung cấp',
 				'route' => 'admin.ncc.index',
@@ -85,6 +86,13 @@ return [
 				'icon'  => 'fa fa-users',
 				'level'  => [1,2],
 			],
+            [
+               'name'  => 'Liên hệ',
+               'namespace' => 'contact',
+               'route' => 'admin.contact',
+               'icon'  => 'fa fa-star',
+               'level'  => [1,2],
+           ],
 		]
 	],
 //    [
@@ -134,6 +142,13 @@ return [
         'icon' => 'fa-shopping-cart',
 		'level'  => [1,2],
         'sub'  => [
+            [
+                'name'  => 'Nhập kho',
+                'namespace' => 'import',
+                'route' => 'admin.inventory.warehousing',
+                'icon'  => 'fa-opencart',
+				'level'  => [1,2],
+            ],
 			[
 				'name'  => 'Xuất kho',
 				'namespace' => 'export',

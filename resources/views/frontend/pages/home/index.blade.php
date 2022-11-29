@@ -45,13 +45,22 @@
         @endif
     </div>
     <div class="container" id="before-slide">
-      
+        {{-- <div class="logo-partner">
+            @for($i = 0; $i < 6; $i++)
+                <div class="item">
+                    <a href="#" title="Đồng hồ Atlantic Swiss">
+                        <img class="lazyload" src="https://www.dangquangwatch.vn/view/Pic/Jacques.jpg" data-src="" alt="Atlantic Swiss" />
+                    </a>
+                </div>
+            @endfor
+        </div> --}}
         <div class="product-one">
             <div class="top">
                 <a href="#" title="" class="main-title">SÁCH BÁN CHẠY</a>
                 {{-- <ul class="top__tab">
                     <li data-id="proNewst1" class="active"><a href="javascript://" title="">Tất cả</a></li>
-                
+                    <li data-id="proNewst2"><a href="javascript://" title=""><h2>Đồng hồ nam</h2></a></li>
+                    <li data-id="proNewst3"><a href="javascript://" title=""><h2>Đồng hồ nữ</h2></a></li>
                 </ul> --}}
             </div>
             <div class="bot">

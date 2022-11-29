@@ -101,8 +101,9 @@
                     </div>
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu tree" data-widget="tree">
-                        <li class="header">Admin</li>
+                        <li class="header">MAIN NAVIGATION</li>
                         
+
                         @foreach(config('sidebar') as $item)
                             @if (isset($item['label']))
                                 <li class="header">{{ $item['name'] }}</li>
@@ -161,7 +162,7 @@
             <!-- /.content-wrapper -->
             <footer class="main-footer">
         
-                <strong>Khóa luận tốt nghiệp</strong>
+                <strong>Đồ án tốt nghiệp </strong>
             </footer>
             <div class="control-sidebar-bg"></div>
         </div>
